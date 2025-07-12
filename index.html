@@ -1,51 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Diário Pessoal</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Meu querido diário...</h1>
+      <h1>Meu querido diário...</h1>
+      <h5>Minha rotina, em palavras e códigos ☕💻</h5>
     </header>
+
     <main>
+      <div class="container">
+        <hr />
+        <h2>Pensamentos</h2>
         <article>
-            <header>
-                <h2>Um dia produtivo!</h2>
-                <p><time datetime="2025-06-30">30 de junho de 2025</time></p>
-            </header>
-            <p>Hoje consegui terminar a aula de HTML e CSS aprofundado. Criei layouts com Flebox e Grid, foi desafiador mas gratificante!</p>
-            <p>Também experimentei usar Google Fonts para deixar a página mais estilosa.</p>
+          <header>
+            <h2>Primeiro dia de curso DEV!</h2>
+            <p><time datetime="2025-06-23">23 de junho de 2025</time></p>
+          </header>
+          <div class="content">
+            <p>
+              Hoje foi o primeiro dia do meu curso de desenvolvimento web.
+              Depois de um dia de trabalho, estava ansiosa pro meu primeiro
+              "Hello World".
+            </p>
+            <p>
+              Aprender o básico de HTML e começar a criar minha primeira página
+              foi uma experiência muito legal. Ver o resultado aparecer na tela
+              me trouxe uma sensação boa.
+            </p>
+            <hr class="separador" />
+          </div>
+          <div class="botao-container">
+            <div></div>
+            <button class="emocao"><span>🤩</span> Aniosa</button>
+          </div>
         </article>
+
         <article>
-            <header>
-                <h2>Pensamentos sobre Javascript</h2>
-                <p><time datetime="2025-04-11">11 de Abril de 2025</time></p>
-            </header>
-             <p>Ansiosa para começar a aprender JavaScript nas próximas semanas. Parece que vai abrir muitas possibilidades para interatividade</p>
+          <header>
+            <h2>CSS salvando meu fim de dia</h2>
+            <p><time datetime="2025-06-24">24 de junho de 2025</time></p>
+          </header>
+          <div class="content">
+            <p>
+              O dia foi cheio de tarefas e um pouco cansativo, mas não deixei de
+              assistir à aula. Hoje aprendemos CSS, e foi incrível ver como a
+              aparência da página muda com pequenos ajustes.
+            </p>
+            <p>
+              Mesmo depois de um dia puxado, terminar com essa sensação de estar
+              aprendendo algo novo valeu muito a pena.
+            </p>
+            <hr class="separador" />
+          </div>
+          <div class="botao-container">
+            <div></div>
+            <button class="emocao"><span>💡</span> Inspirada</button>
+          </div>
         </article>
+
         <article>
-            <header>
-                <h2>Pensamentos sobre Javascript</h2>
-                <p><time datetime="2025-04-11">11 de Abril de 2025</time></p>
-            </header>
-             <p>Ansiosa para começar a aprender JavaScript nas próximas semanas. Parece que vai abrir muitas possibilidades para interatividade</p>
+          <header>
+            <h2>Reflexões no meio da semana</h2>
+            <p><time datetime="2025-06-25">25 de junho de 2025</time></p>
+          </header>
+          <div class="content">
+            <p>
+              Hoje o dia foi mais calmo. Consegui organizar algumas coisas e
+              pensar na minha rotina. Ainda é desafiador conciliar trabalho,
+              estudos e descanso, mas estou aprendendo a equilibrar tudo isso.
+            </p>
+            <p>
+              Não é sobre fazer tudo rápido, mas sobre fazer com intenção e
+              constância.
+            </p>
+            <hr class="separador" />
+          </div>
+          <div class="botao-container">
+            <div></div>
+            <button class="emocao"><span>🧠</span> Focada</button>
+          </div>
         </article>
+
         <article>
-            <header>
-                <h2>Pensamentos sobre Javascript</h2>
-                <p><time datetime="2025-04-11">11 de Abril de 2025</time></p>
-            </header>
-             <p>Ansiosa para começar a aprender JavaScript nas próximas semanas. Parece que vai abrir muitas possibilidades para interatividade</p>
+          <header>
+            <h2>Domingo só pra mim</h2>
+            <p><time datetime="2025-06-26">26 de junho de 2025</time></p>
+          </header>
+          <div class="content">
+            <p>
+              Hoje tirei o dia pra descansar. Acordei mais tarde, tomei um café
+              com calma e vi um filme que estava na lista há semanas.
+            </p>
+            <p>
+              Também organizei umas gavetas, sem pressa. Foi um domingo leve,
+              como eu precisava. Começar a semana bem depende desses momentos de
+              pausa.
+            </p>
+            <hr class="separador" />
+          </div>
+          <div class="botao-container">
+            <div></div>
+            <button class="emocao"><span>🛋️</span> Tranquila</button>
+          </div>
         </article>
+        <hr />
+      </div>
     </main>
     <footer>
-        <p>&copy; 2025 Meu Diário Pessoal</p>
+      <p>&copy; 2025 Meu Diário Pessoal</p>
     </footer>
-</body>
+  </body>
 </html>
